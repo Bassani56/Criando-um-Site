@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header{
+    background-color: rgb(252, 240, 240);
+    height: 78.6px;
+}
+
+    .conteiner{
+        display: flex;
+        flex-wrap: no-wrap;
+        /* max-width: 1100px; */
+        margin: auto auto;
+        padding: 0 3%;
+        justify-content: space-between; 
+    }
+
+        .smart{
+            margin-top: 12px;
+            height: 54px;
+            width: 200px;
+            font-size: x-large;
+            color: rgb(59, 116, 168);
+        }
+
+        .links{
+            height: auto;
+            width: 2000px;
+            font-size: large;
+            display: flex;
+            text-align: right;
+            align-self: center;  
+        }
+
+        nav a{
+            text-decoration: none;
+            font-weight: bold;
+            padding: 20px;                 /* espaço entre  eles */
+        }
+
+        nav a:hover{
+            color: green;
+        }
+
+        .botao {
+            display: flex;
+            margin-top: 10px;
+            height: 60px;
+            width: 400px;
+            padding: 4px;
+
+            align-items: center;
+            justify-content: right;
+        }
+
+        .botao button{
+            height: 50px;
+            border: 1px solid brown;
+            border-radius: 10%;
+            cursor: pointer;
+        }
+
+        .botao button:hover{
+            color: rgb(129, 194, 129);
+        }
+
+            .entrar{
+                width: 110px;
+                color: rgb(63, 27, 27);
+                font-size: medium;
+                margin-right: 20px;
+            }
+
+            .cadastro{
+                width: 120px;
+                background-color: rgb(250, 92, 0);
+                font-size: medium;
+                border-top: 1px solid ;
+            }
+
+
+.img{
+    background-color: rgb(141, 106, 70);
+    background-image: url(img/escritorio3.png);
+    margin: 0px;
+    height: 810px;
+    width: 2000px;
+    padding-top: 250px;
+}
+
+    .texto{
+        padding: 0px 1000px;
+        width: 1228px;
+        height: 350px;
+        margin-top: 0px;
+    }
+
+        .conteudo{
+            width: 768px;
+            height: 185px;
+        }
+
+            .section1{
+                font-size: xxx-large;
+                color: rgb(255, 255, 255);
+            }
+
+        .venda{
+            font-weight: 700;
+            height: 60px;
+            padding: 20px 20px;
+            border-radius: 6px;
+            width: 300px;
+            color: rgb(0, 0, 0);
+            font-size: medium;
+            background-color: rgb(218, 87, 12);
+            font-size: medium;
+            border-top: 1px solid;
+            cursor: pointer;
+        }
+
+.conteiner2{
+    margin: 0 auto;
+    padding: 0 0%; 
+    height: 750px;
+    width: 1230px;
+}
+
+    .s2{
+        font-weight: 700;
+        font-size: xx-large;
+        padding: 10px 280px;
+        color: rgb(131, 165, 165);
+        width: 100%;
+    }
+
+    .blocos{
+       display: flex;
+       justify-content: space-between;
+    }
+
+        .bloco1{
+            background-color: rgb(237, 237, 245);
+            height: 300px;
+            width: 32.5%;
+            padding-top: 60px;
+            padding-left: 30px;
+            padding-right: 40px;
+            font-size: 19px;
+            color: rgb(127, 145, 145);
+        }
+
+        .bloco2{
+            background-color: rgb(237, 237, 245);
+            height: 300px;
+            width: 32.5%;
+            padding-top: 60px;
+            padding-left: 30px;
+            padding-right: 40px;
+            font-size: 19px;
+            color: rgb(127, 145, 145);
+        }
+
+        .bloco3{
+            background-color:rgb(237, 237, 245);
+            height: 300px;
+            width: 32.5%;
+            padding-top: 60px;
+            padding-left: 60px;
+            padding-right: 40px;
+            font-size: 19px;
+            color: rgb(127, 145, 145);
+        }
+
+        .opor{
+            color: rgb(31, 29, 29);
+            font-size: 38px;
+            padding-top: 30px;
+            padding-left: 60px;
+            padding-right: 40px;
+            display: flex;
+            justify-content: center;
+            height: 220px;
+            width: 1230px;
+            margin: 0 auto; /* Isso vai centralizar a seção horizontalmente na página, se necessário */
+            text-align:center; /* Para alinhar o texto horizontalmente */
+        }
+
+    

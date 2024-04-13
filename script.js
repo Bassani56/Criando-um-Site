@@ -1,0 +1,1 @@
+const entrar = document.querySelector('.entrar');
